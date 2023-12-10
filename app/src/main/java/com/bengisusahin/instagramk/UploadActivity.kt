@@ -3,23 +3,22 @@ package com.bengisusahin.instagramk
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import com.bengisusahin.instagramk.databinding.ActivityMainBinding
+import com.bengisusahin.instagramk.databinding.ActivityUploadBinding
 
-class MainActivity : AppCompatActivity() {
+class UploadActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivityMainBinding
+    private lateinit var binding: ActivityUploadBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater)
+        binding = ActivityUploadBinding.inflate(layoutInflater)
         setContentView(binding.root)
+    }
+
+    fun upload(view: View){
 
     }
 
-    fun signInClicked(view: View){
-
-    }
-
-    fun signUpClicked(view: View){
+    fun selectImage(view: View){
 
     }
 }
