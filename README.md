@@ -28,3 +28,7 @@ Then if the user clicks the upload button again will see the rational warning me
 When the user gives permission for the gallery will can upload a post.
 
 <img src="https://github.com/bengisusaahin/InstagramK/blob/main/uploadPost.png" width = "200" height = "400">
+
+The user can see the user's email, image, and comments who post sharing on the feed page according to the descending date.
+
+<img src="https://github.com/bengisusaahin/InstagramK/blob/main/feedActivity.png" width = "200" height = "400">
