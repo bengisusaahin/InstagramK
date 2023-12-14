@@ -1,4 +1,4 @@
-package com.bengisusahin.instagramk
+package com.bengisusahin.instagramk.view
 
 import android.Manifest
 import android.content.Intent

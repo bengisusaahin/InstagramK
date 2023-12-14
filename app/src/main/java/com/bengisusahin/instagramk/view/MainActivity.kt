@@ -1,4 +1,4 @@
-package com.bengisusahin.instagramk
+package com.bengisusahin.instagramk.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.content.Intent
@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this,"Enter email and password !", Toast.LENGTH_LONG).show()
         }else{
             auth.signInWithEmailAndPassword(email,password).addOnSuccessListener {
-                val intent = Intent(this@MainActivity,FeedActivity::class.java)
+                val intent = Intent(this@MainActivity, FeedActivity::class.java)
                 startActivity(intent)
                 finish()
             }.addOnFailureListener {
@@ -61,7 +61,7 @@ class MainActivity : AppCompatActivity() {
         }else{
             auth.createUserWithEmailAndPassword(email,password).addOnSuccessListener {
                 //success
-                val intent = Intent(this@MainActivity,FeedActivity::class.java)
+                val intent = Intent(this@MainActivity, FeedActivity::class.java)
                 startActivity(intent)
                 finish()
             }.addOnFailureListener {
